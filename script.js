@@ -214,6 +214,46 @@ function renderMatrix() {
           .attr("stroke", "green")
           .attr("stroke-width", 1.5)
           .attr("d", lineMax);
+
+        const trendLegend = svg.append("g")
+          .attr("class", "trend-legend")
+          // Position this legend relative to the main legend. Adjust as needed.
+          .attr("transform", `translate(${width + 30}, ${height - legendHeight - 50 - 100})`);
+      
+        const swatchSize = 15;
+      
+        // Blue swatch for Min Temperature
+        trendLegend.append("line")
+          .attr("x1", 0)
+          .attr("x2", 20)
+          .attr("y1", 40)
+          .attr("y2", 40)
+          .attr("stroke", "lightblue")
+          .attr("stroke-width", 2);
+      
+        trendLegend.append("text")
+          .attr("x", 25)
+          .attr("y", 40)
+          .text("Min Temperature")
+          .attr("font-size", "12px")
+          .attr("alignment-baseline", "middle");
+      
+        // Green swatch for Max Temperature
+        trendLegend.append("line")
+           .attr("x1", 0)
+           .attr("x2", 20)
+           .attr("y1", 60)
+           .attr("y2", 60)
+           .attr("stroke", "green")
+           .attr("stroke-width", 2);
+          
+      
+        trendLegend.append("text")
+          .attr("x", 25)
+          .attr("y", 60)
+          .text("Max Temperature")
+          .attr("font-size", "12px")
+          .attr("alignment-baseline", "middle");
       }
     });
   }
