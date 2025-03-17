@@ -12,7 +12,9 @@ Key features -
 2. Added color to each cell visualizing the maximum and minimum temperature by month. A button can be clicked to switch between the visualizations for Min and Max.
 3. When the mouse pointer is hovered on any cell, a tooltip would appear showing the date(Year-Month), min and max temperature values.
 4. A legend showing the mapping between colors and values was also added.
-
+   
+<img src="Level1_Max.png" alt="Level 1 - Max Temp Visualization" width="400">
+<img src="Level1_Min.png" alt="Level 1 - Min Temp Visualization" width="400">
 
 ### Level 2 : Improved Year/Month Heatmap
 
@@ -23,3 +25,6 @@ Key features -
 2. Still same as level 1, added color to each cell such that it represents the monthly Max/Min temperatures.
 3. In the mini line charts within each cell, x direction represents the days in a month, and y direction represents the temperature
 4. A legend to show the mapping between colors and values was also added.
+
+<img src="Level2_Max.png" alt="Level 1 - Max Temp Visualization" width="400">
+<img src="Level2_Min.png" alt="Level 1 - Min Temp Visualization" width="400">
