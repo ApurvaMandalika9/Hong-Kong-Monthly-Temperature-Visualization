@@ -16,7 +16,7 @@ Key features -
    <img src="Level1_Max.png" alt="Level 1 - Max Temp Visualization" width="600">
    <br>
      <em>Level 1 - Max Temp Visualization</em>
-   <br>
+   <br> <br>
    <img src="Level1_Min.png" alt="Level 1 - Min Temp Visualization" width="600">
    <br>
      <em>Level 1 - Min Temp Visualization</em>
@@ -32,6 +32,12 @@ Key features -
 3. In the mini line charts within each cell, x direction represents the days in a month, and y direction represents the temperature
 4. A legend to show the mapping between colors and values was also added.
 <p align="center">  
-   <img src="Level2_Max.png" alt="Level 1 - Max Temp Visualization" width="600">
-   <img src="Level2_Min.png" alt="Level 1 - Min Temp Visualization" width="600">
+   <img src="Level2_Max.png" alt="Level 2 - Max Temp Visualization" width="600">
+   <br>
+     <em>Level 2 - Max Temp Visualization</em>
+   <br> <br>
+   <img src="Level2_Min.png" alt="Level 2 - Min Temp Visualization" width="600">
+   <br>
+     <em>Level 2 - Min Temp Visualization</em>
+   
 </p>
