@@ -14,7 +14,12 @@ Key features -
 4. A legend showing the mapping between colors and values was also added.
 <p align="center">   
    <img src="Level1_Max.png" alt="Level 1 - Max Temp Visualization" width="600">
+   <br>
+     <em>Level 1 - Max Temp Visualization</em>
+   <br>
    <img src="Level1_Min.png" alt="Level 1 - Min Temp Visualization" width="600">
+   <br>
+     <em>Level 1 - Min Temp Visualization</em>
 </p>
 
 ### Level 2 : Improved Year/Month Heatmap
