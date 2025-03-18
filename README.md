@@ -41,3 +41,8 @@ Key features -
      <em>Level 2 - Min Temp Visualization</em>
    
 </p>
+
+### To run the code -
+1. Download this repo and unzip the folder.
+2. In a terminal, navigate to the downloaded folder and run the command "python -m http.server 8000"
+3. In a web broswer, give "http://localhost:8000/".
