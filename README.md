@@ -16,6 +16,7 @@ Key features -
    <img src="Level1_Max.png" alt="Level 1 - Max Temp Visualization" width="600">
    <img src="Level1_Min.png" alt="Level 1 - Min Temp Visualization" width="600">
 </p>
+
 ### Level 2 : Improved Year/Month Heatmap
 
 In this level, even within each month, the daily trends of max and min temperatues are shown. Focused only on the last 10 years of data for this level. 
